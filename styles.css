@@ -1,0 +1,154 @@
+body,
+html {
+    background: #F7F8FA;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    min-height: auto;
+    margin: 1rem auto;
+    padding: 2rem;
+    border: 1px rgb(189, 76, 24) solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header.page-title {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header.page-title p {
+    text-transform: capitalize;
+    background: red;
+    padding: 10px 20px;
+    text-align: left;
+
+}
+
+header img {
+    border-radius: 10%;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 1rem;
+
+}
+
+.bio-data ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+
+.bio-data ul li p:first-child {
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+}
+
+.bio-data ul li {
+    padding: 0 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bio-data ul li:hover {
+    border: 1px solid rgb(245, 170, 170);
+
+}
+
+.bio-data ul li:last-child {
+    border-bottom: none
+}
+
+.about {
+
+    text-align: center;
+}
+
+.about p:first-child {
+    text-transform: capitalize;
+    background: red;
+    padding: 10px 20px;
+}
+
+.contact>p {
+    text-transform: capitalize;
+    background: red;
+    padding: 10px 20px;
+
+    text-align: center;
+}
+
+.contact form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+
+}
+
+.contact form>p>label {
+    font-size: 1.25rem;
+    font-size: bold;
+    color: #4a5568;
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+
+
+}
+
+
+
+form input[placeholder],
+textarea {
+    background: #eeeaea;
+    padding: 12px 8px;
+    outline: 0;
+    color: #1a202c;
+    border-radius: 5px;
+    border: 0;
+    width: 95%;
+}
+
+form button {
+    background: rgb(129, 129, 129);
+    width: 20%;
+    padding: 10px 8px;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer p {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1em;
+    line-height: 2;
+    color: #fff;
+    background: red;
+    padding: 10px 20px;
+}
+
+.nav  {
+    padding: 0;
+    /* border: 1px solid #ddd; */
+}
+
+.nav li {
+    list-style-type: none;
+
+    padding: 8px 16px;
+    float: right;
+}
+
+.nav  li:last-child {
+    border-bottom: none
+}
+.fab{
+    color: white;
+    font-size: larger;
+}
